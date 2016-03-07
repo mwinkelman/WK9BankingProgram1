@@ -4,3 +4,9 @@ c:\users\mary winkelman\documents\visual studio 2015\Projects\WK9BankingProgram1
 c:\users\mary winkelman\documents\visual studio 2015\Projects\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.csprojResolveAssemblyReference.cache
 c:\users\mary winkelman\documents\visual studio 2015\Projects\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.exe
 c:\users\mary winkelman\documents\visual studio 2015\Projects\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.pdb
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\bin\Debug\WK9BankingProgram1.exe.config
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.exe
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.pdb
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\bin\Debug\WK9BankingProgram1.exe
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\bin\Debug\WK9BankingProgram1.pdb
+C:\Users\Mary Winkelman\Documents\Visual Studio 2015\Projects\Week9\WK9BankingProgram1\WK9BankingProgram1\obj\Debug\WK9BankingProgram1.csprojResolveAssemblyReference.cache

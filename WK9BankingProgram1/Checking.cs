@@ -36,7 +36,7 @@ namespace WK9BankingProgram1
             Client = client;
             AccountNumber = $"C_{client.ClientID}";
             Balance = 0.00;
-            FilePath = @"AccountSummary_" + AccountNumber;
+            FilePath = @"AccountSummary_" + AccountNumber+".txt";
             activated = true;
             StreamWriter fileSW = new StreamWriter(FilePath);
             using (fileSW)

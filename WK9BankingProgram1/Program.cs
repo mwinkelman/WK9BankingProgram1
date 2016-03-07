@@ -47,7 +47,7 @@ namespace WK9BankingProgram1
             this.client = client;
             accountNumber = $"AccountType{client.ClientID}";
             balance = 0.00;
-            filePath = @"AccountSummary_" + accountNumber;
+            filePath = @"AccountSummary_" + accountNumber + ".txt";
             StreamWriter fileSW = new StreamWriter(filePath);
             using (fileSW)
             {
@@ -94,7 +94,7 @@ namespace WK9BankingProgram1
     {
         static void Main(string[] args)
         {
-            Menu mainMenu = new Menu("MAIN MENU:", new List<string> { "View Client Information", "View Account Balance", "Deposit Funds", "Withdraw Funds", "Exit" });
+            Menu mainMenu = new Menu("-------PERSONAL BANKING SYSTEM-------\nMAIN MENU:", new List<string> { "View Client Information", "View Account Balance", "Deposit Funds", "Withdraw Funds", "Exit" });
             Menu accountMenu = new Menu("ACCOUNTS:", new List<string> { "Checking", "Reserve", "Savings" });
             Client client1 = new Client("Marpy", "Winkelman");
             bool repeat = true;
@@ -182,30 +182,9 @@ namespace WK9BankingProgram1
                 }
             }
             Console.Read();
-            client1.Checking.Deposit(45);
-            client1.Reserve.Deposit(60);
-            client1.Savings.Deposit(15);
-            client1.ViewClientInfo();
 
-            Console.Read();
         }
-        //static string DisplayMenu()
-        //{
-        //    List<string> menuItems = new List<string>
-        //    {"View Client Information","View Account Balance","Deposit Funds","Withdraw Funds","Exit"};
-        //    Console.Clear();
-        //    Console.WriteLine("PERSONAL BANKING SYSTEM\n");
-        //    int counter = 0;
-        //    Console.WriteLine("MENU:\n-----------------");
-        //    foreach (string item in menuItems)
-        //    {
-        //        counter++;
-        //        Console.WriteLine($"{counter}. {item}");
-        //    }
-        //    Console.WriteLine("Enter the number of a menu item:");
-        //    string input = Console.ReadLine();
-        //    return input;
-        //}
+  
         static void DepositFunds(Account account)
         {
             Console.WriteLine("Enter amount:");
